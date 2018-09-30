@@ -8,4 +8,4 @@ class CreateShows < ActiveRecord::Migration
       t.string :season
     end
   end
-end
+end 
