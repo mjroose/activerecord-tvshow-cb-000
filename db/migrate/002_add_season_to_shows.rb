@@ -1,0 +1,3 @@
+class AddSeasonToShows
+
+end
