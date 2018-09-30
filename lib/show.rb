@@ -1,6 +1,6 @@
 class Show < ActiveRecord::Base
   def self.highest_rating
-    self.order(:'rating DESC').limit(1)
+    resp = self.order(:'rating DESC').limit(1)
     binding.pry
   end
 
