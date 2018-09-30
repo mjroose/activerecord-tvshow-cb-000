@@ -1,7 +1,7 @@
 require "bundler/setup"
 require 'yaml'
 require 'active_record'
-require_relative '../lib/*'
+require_relative '../lib/show.rb'
 
 Bundler.require
 
